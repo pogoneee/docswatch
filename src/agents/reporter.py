@@ -14,7 +14,6 @@ def report_node(state):
     repo = state["repo"]
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     
-    print(f"🟡 repo={repo}, summary_len={len(summary)}")
 
     blocks = [
         {
@@ -67,6 +66,5 @@ def report_node(state):
         children=blocks
     )
 
-    print("🟢 Notion blocks appended")
     return {"report": summary}
 
