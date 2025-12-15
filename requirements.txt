@@ -1,0 +1,13 @@
+langgraph>=0.0.45
+langchain>=0.2.0
+langchain-openai>=0.1.7
+openai>=1.30.0
+
+PyGithub
+requests
+python-dotenv
+
+notion-client
+faiss-cpu
+tiktoken
+

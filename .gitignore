@@ -1,0 +1,48 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ===== Virtual Environment =====
+venv/
+.env
+.env.*
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ===== OS =====
+Thumbs.db
+
+# ===== Test / Coverage =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Data / Local Storage =====
+data/
+*.log
+
+# ===== LangChain / LLM =====
+langchain.db
+*.sqlite
+
+# ===== Notebooks =====
+.ipynb_checkpoints/
+
+# ===== Secrets =====
+*.pem
+*.key
+*.crt
+
+# ===== Misc =====
+.cache/
+
