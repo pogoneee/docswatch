@@ -48,6 +48,7 @@ flowchart TD
     end
 
     Collector --> Diff --> Analyzer --> Reporter
+```
 
 ---
 
@@ -78,41 +79,41 @@ docswatch/
     ├── test_analyzer.py
     ├── test_reporter.py
     └── test_workflow.py
-
+```
 ---
 
 ## Setup
 
 ### Python Environment
-
+```bash
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
-
+```
 ### Environment Variables
-
+```text
     OPENAI_API_KEY=sk-xxxx
     GITHUB_TOKEN=ghp_xxxx
     NOTION_TOKEN=secret_xxxx
     NOTION_PAGE_ID=xxxxxxxxxxxx
 
     export $(grep -v '^#' .env | xargs)
-
+```
 ---
 
 ## Run
-
+```python
     python run.py
-
+```
 ---
 
 ## Test
-
+```python
     python tests/test_collector.py
     python tests/test_diff.py
     python tests/test_analyzer.py
     python tests/test_reporter.py
-
+```
 ---
 
 ## Tech Stack
